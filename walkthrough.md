@@ -30,7 +30,8 @@ To access the internal forum, we must bypass the authentication portal. Instead 
 ### 1. The Login Portal
 Clicking "Login" brings us to a standard username and password form. Without known credentials, we open the browser's Developer Tools to inspect the underlying source code and network requests.
 *(Screenshot showing the standard login form)*
-![Dark Forum Login Portal](IMG-20260709-WA0000.jpg)
+ <img width="1920" height="922" alt="VirtualBox_kali linux_31_05_2026_11_51_25" src="https://github.com/user-attachments/assets/c811642e-0756-4e7d-ac7c-d635f7c5c76f" />
+
 
 ### 2. Client-Side Credential Extraction
 While inspecting the console and available JavaScript functions, we discover a severe vulnerability: hardcoded credentials or a poorly secured credential generation function. Executing/inspecting the `generateUserCredentials()` function in the browser console triggers an alert revealing **Base64 Encoded Credentials**.
