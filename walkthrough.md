@@ -12,7 +12,8 @@ The investigation begins with identifying the target's public-facing infrastruct
 ### 1. Clearnet Discovery
 We discover a public-facing website advertising the **Midnite** hacking collective. The page boasts about their digital espionage capabilities and openly offers tiered DDoS (Distributed Denial of Service) services for purchase.
 *(Screenshot showing the Midnite collective's clearnet landing page)*
-![Midnite Clearnet Landing Page](IMG-20260709-WA0005.jpg)
+ <img width="1920" height="922" alt="VirtualBox_kali linux_31_05_2026_11_41_18" src="https://github.com/user-attachments/assets/3c3f8887-47fd-4025-9d7e-d29101f72347" />
+
 
 ### 2. Transition to Darknet
 Further reconnaissance leads to a Tor hidden service (.onion address). Navigating to this address in the Tor Browser presents us with the "Dark Forum," serving as a gateway to the collective's internal community.
