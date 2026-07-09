@@ -49,7 +49,7 @@ Using the extracted credentials, we successfully authenticate and gain access to
 ### 1. Dashboard Enumeration
 Upon logging in, the dashboard ("Welcome to the Dark Side!") presents three primary categories. However, the titles and descriptions of these categories are encoded in **Hexadecimal**. We also note a pinned post from "P.J.", claiming ownership of the forum.
 *(Screenshot showing the authenticated dashboard with Hex-encoded cards)*
-![Hex Encoded Dashboard](IMG-20260709-WA0002.jpg)
+ <img width="1920" height="922" alt="VirtualBox_kali linux_31_05_2026_12_02_05" src="https://github.com/user-attachments/assets/c6ac6c0f-f0ab-4c64-a427-b0a4b42e19a6" />
 
 ### 2. Hexadecimal Decoding
 To understand what is being discussed on this forum, we must translate the Hex strings into readable ASCII text. Using a tool like **CyberChef**, we input the title of the first card (`44 72 75 67 73`). Applying the "From Hex" recipe reveals the plaintext word: **"Drugs"**.
