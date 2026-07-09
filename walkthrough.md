@@ -18,7 +18,8 @@ We discover a public-facing website advertising the **Midnite** hacking collecti
 ### 2. Transition to Darknet
 Further reconnaissance leads to a Tor hidden service (.onion address). Navigating to this address in the Tor Browser presents us with the "Dark Forum," serving as a gateway to the collective's internal community.
 *(Screenshot showing the Dark Forum welcome screen in the Tor Browser)*
-![Dark Forum Welcome Page](IMG-20260709-WA0003.jpg)
+ <img width="1920" height="922" alt="VirtualBox_kali linux_31_05_2026_11_44_40" src="https://github.com/user-attachments/assets/1c98551d-3df0-40a3-9caf-d9ab5b32099d" />
+
 
 ---
 
