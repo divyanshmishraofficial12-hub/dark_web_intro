@@ -60,7 +60,8 @@ To understand what is being discussed on this forum, we must translate the Hex s
 ### 3. De-obfuscating the Forum
 Through further interaction with the site (or by decoding the remaining strings), the true nature of the forum is revealed. The hex codes translate to illicit topics, and the interface updates to display corresponding images (e.g., pills for the "Drugs" section).
 *(Screenshot showing the de-obfuscated dashboard revealing the hidden images)*
-![De-obfuscated Forum Dashboard](IMG-20260709-WA0001.jpg)
+ <img width="1920" height="922" alt="VirtualBox_kali linux_31_05_2026_12_06_57" src="https://github.com/user-attachments/assets/582af03a-6d52-48db-b3aa-44ea4d9b3274" />
+
 
 ---
 
