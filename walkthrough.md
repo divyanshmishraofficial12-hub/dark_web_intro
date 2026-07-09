@@ -37,7 +37,7 @@ Clicking "Login" brings us to a standard username and password form. Without kno
 ### 2. Client-Side Credential Extraction
 While inspecting the console and available JavaScript functions, we discover a severe vulnerability: hardcoded credentials or a poorly secured credential generation function. Executing/inspecting the `generateUserCredentials()` function in the browser console triggers an alert revealing **Base64 Encoded Credentials**.
 *(Screenshot showing the Developer Tools console and the Base64 credentials alert)*
- <img width="1920" height="922" alt="VirtualBox_kali linux_31_05_2026_11_51_25" src="https://github.com/user-attachments/assets/ef99b63f-fb00-46b8-842c-f39193ff0e45" />
+  <img width="1920" height="922" alt="VirtualBox_kali linux_31_05_2026_11_52_28" src="https://github.com/user-attachments/assets/64713fab-d0bd-47db-bcab-c8dac1a82f8c" />
 
 *Note: The Base64 string (`S0Y3eWJ1RDE6QWx5aGZvdDBWOVZJV202Vw==`) can be trivially decoded to `KF7ybuD1:Alyhfud0VO9JIwm6W`, providing the plaintext username and password required to log in.*
 
