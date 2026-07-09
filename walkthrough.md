@@ -54,7 +54,8 @@ Upon logging in, the dashboard ("Welcome to the Dark Side!") presents three prim
 ### 2. Hexadecimal Decoding
 To understand what is being discussed on this forum, we must translate the Hex strings into readable ASCII text. Using a tool like **CyberChef**, we input the title of the first card (`44 72 75 67 73`). Applying the "From Hex" recipe reveals the plaintext word: **"Drugs"**.
 *(Screenshot showing the CyberChef decoding process)*
-![CyberChef Hex Decoding](IMG-20260709-WA0006.jpg)
+ <img width="1920" height="922" alt="VirtualBox_kali linux_31_05_2026_12_02_26" src="https://github.com/user-attachments/assets/87e5cd1f-16f1-463b-8500-e09ff37a09b1" />
+
 
 ### 3. De-obfuscating the Forum
 Through further interaction with the site (or by decoding the remaining strings), the true nature of the forum is revealed. The hex codes translate to illicit topics, and the interface updates to display corresponding images (e.g., pills for the "Drugs" section).
